@@ -39,5 +39,5 @@ This data-analysis project explores sales data from the Indian fashion e-commerc
 ## ✅ How to Run / Reproduce  
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/<your-username>/myntra-sales-data-analysis.git
+   git clone https://github.com/<ragasowmya7780>/E-commerce-sales-analysis.git
    cd myntra-sales-data-analysis
