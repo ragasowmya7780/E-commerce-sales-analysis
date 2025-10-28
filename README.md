@@ -1,41 +1,88 @@
+# 🛒 E-commerce Sales Analysis
 
+Welcome to the **E-commerce Sales Analysis** project — a data analytics study focused on understanding customer behavior, product performance, and sales trends across an e-commerce platform.
 
-## 🎯 Project Overview  
-This data-analysis project explores sales data from the Indian fashion e-commerce platform **Myntra**. The aim is to extract insights about product categories, seasonality, pricing, and sales performance to drive business decisions.
+---
 
-## 📂 Dataset  
-- The dataset contains information on Myntra sales including features such as product category, sub-category, sales units, pricing, year/quarter, etc.  
-- Source: Kaggle project link above.  
-- Pre-processing steps include cleaning missing values, encoding categorical variables, and deriving additional features (e.g., year, quarter) as needed.
+## 📊 Project Overview
 
-## 🛠 Tools & Technologies  
-- Python (Pandas, NumPy)  
-- Data visualization (Matplotlib, Seaborn, Plotly)  
-- Jupyter/Colab Notebook  
-- Git & GitHub for version control
+This project examines product page interactions and sales data to:
+- Identify **high-performing products**
+- Understand **customer preferences**
+- Analyze **factors influencing conversions and revenue**
+- Provide actionable insights to improve **marketing and sales strategies**
 
-## 🔍 Key Analysis Questions  
-- Which product categories and sub-categories generate the highest sales?  
-- How does seasonality (year, quarter) affect sales performance?  
-- How does the average price vary across categories and what’s its effect on units sold?  
-- Are there any correlations between pricing, discounting, and units sold?  
-- What trends can we identify over the years?  
+---
 
-## 📊 Visualizations & Insights  
-- Bar charts of top-selling categories and sub-categories  
-- Trend plots showing sales over time (year/quarter)  
-- Box/violin plots for pricing distribution by category  
-- Heatmap showing correlation between features  
-- Interactive dashboards (if any) for deeper exploration  
+## 🧾 Problem Statement
 
-## 💡 Findings (Summary)  
-- E.g., “Street-wear and casual wear categories consistently show higher units sold compared to premium formal wear.”  
-- E.g., “Sales tend to spike in the final quarter of each year, indicating strong festive/holiday demand.”  
-- E.g., “Lower average price doesn’t always lead to higher units sold — product category and brand play a big role.”  
-*(Replace the above with your specific findings.)*
+> Examine product page interactions on an e-commerce site to uncover user preferences and high-performing products.  
+> Leverage these insights to boost conversions and enhance marketing and sales strategies.
 
-## ✅ How to Run / Reproduce  
-1. Clone the repository:  
+---
+
+## 📂 Dataset
+
+- **Dataset Source:** Kaggle / custom sales data  
+- **Features include:**
+  - Product ID, Category, Sub-category  
+  - Price, Discount, Quantity Sold  
+  - Customer Ratings and Reviews  
+  - Page Views, Clicks, and Add-to-Cart Actions  
+  - Order Date, Region, and Revenue  
+  
+
+---
+
+## 🧠 Tools and Technologies
+
+| Tool | Purpose |
+|------|----------|
+| Python | Data analysis and visualization |
+| Pandas, NumPy | Data manipulation |
+| Matplotlib, Seaborn, Plotly | Data visualization |
+| Scikit-learn | Predictive modeling |
+| Google Colab | Execution environment |
+| Git & GitHub | Version control and collaboration |
+
+---
+
+## 🔍 Key Insights Explored
+
+- Top-selling categories and sub-categories  
+- Seasonal and regional sales variations  
+- Impact of discounts and price on total sales  
+- Customer preference trends based on ratings and reviews  
+- Correlation between marketing metrics and conversions  
+
+---
+
+## 📈 Visualizations
+
+The project includes various visualizations such as:
+- 📊 Bar plots — Top product categories by revenue  
+- 📅 Line charts — Sales trends over time  
+- 💸 Heatmaps — Correlation between price, discount, and units sold  
+- 🌍 Pie charts — Regional sales distribution  
+
+---
+
+## 🧩 Predictive Analysis
+
+Built and evaluated predictive models to estimate:
+- **Future sales trends**
+- **High-conversion product features**
+
+Models tested:
+- Linear Regression  
+- Random Forest Regressor  
+- Decision Tree Regressor  
+
+---
+
+## ⚙️ How to Run the Project
+
+1. Clone the repository:
    ```bash
-   git clone https://github.com/<ragasowmya7780>/E-commerce-sales-analysis.git
-   cd myntra-sales-data-analysis
+   git clone https://github.com/ragasowmya7780/E-commerce-sales-analysis.git
+   cd E-commerce-sales-analysis
