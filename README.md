@@ -1,6 +1,4 @@
-# Myntra Sales Data Analysis
 
-Repository for the project hosted on Kaggle: [Myntra Sales Data Analysis](https://www.kaggle.com/code/srushtipillare/myntra-sales-data-analysis)
 
 ## 🎯 Project Overview  
 This data-analysis project explores sales data from the Indian fashion e-commerce platform **Myntra**. The aim is to extract insights about product categories, seasonality, pricing, and sales performance to drive business decisions.
